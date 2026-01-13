@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: "./rock-papper-scissors-react/",
+  base: "https://albert-nd.github.io/rock--papper--scissors-react/",
   plugins: [react(), tailwindcss()],
 });
